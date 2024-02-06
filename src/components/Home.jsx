@@ -33,7 +33,7 @@ const Home = () => {
       </h2>
       <div className="pt-5">
         <a
-          href="https://drive.google.com/file/d/1DSv3UJNSlcxhSoz8ge4QKCiAhcAK46Ee/view?usp=sharing"
+          href="https://drive.google.com/drive/folders/1aEGpYBKLzQunpTO4uVz2zCPOTd-HA-iZ?usp=sharing"
           target="_blank"
           className="inline-flex justify-center shadow-inner items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-800 hover:bg-red-700 focus:ring-4 focus:ring-red-300 dark:focus:ring-red-900"
         >
