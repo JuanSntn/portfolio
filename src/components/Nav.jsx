@@ -6,8 +6,8 @@ const Nav = () => {
   const Links = [
     { name: 'Inicio', to: 'Home' },
     { name: 'Sobre mí', to: 'About' },
-    { name: 'Skills', to: 'Experience' },
-    { name: 'Proyectos', to: 'Proyect' },
+    { name: 'Skills', to: 'skills' },
+    { name: 'Proyectos', to: 'Projects' },
   ];
 
   const [open, setOpen] = useState(false);

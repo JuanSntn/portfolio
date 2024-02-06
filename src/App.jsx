@@ -3,6 +3,7 @@ import Home from "./components/Home"
 import PraticleBg from "./components/PraticleBg"
 import About from "./components/About"
 import Skills from "./components/Skills"
+import Projects from "./components/Projects"
 import './App.css'
 
 function App() {
@@ -17,9 +18,15 @@ function App() {
         <div className="w-full h-screen backdrop-blur-sm ">
         <Skills />
         </div>
-        
+        <div className="bg-white">
+
+        <Projects/>
         <Nav />
+        </div>
+        
+        
         <PraticleBg />
+        
       </div>
 
 

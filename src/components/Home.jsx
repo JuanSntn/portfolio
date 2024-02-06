@@ -5,8 +5,8 @@ import { TypeAnimation } from 'react-type-animation'
 
 const Home = () => {
   return (
-    <div className="w-full h-screen flex flex-col items-center justify-center p-4 sm:p-8">
-      <h1 className="mb-4 text-3xl sm:text-5xl font-extrabold leading-none tracking-tight text-red-900 md:text-6xl lg:text-7xl dark:text-white text-center">
+    <div id='Home' className="w-full h-screen flex flex-col items-center justify-center p-4 sm:p-8">
+      <h1 className="mb-4 text-3xl sm:text-5xl font-extrabold leading-none tracking-tight text-white md:text-6xl lg:text-7xl dark:text-white text-center">
         <span className=" text-red-800">¡Hola!</span> Soy Juan Carlos
       </h1>
       <h2 className="text-base sm:text-3xl font-extrabold pt-4 text-white text-center">
@@ -55,9 +55,15 @@ const Home = () => {
           </svg>
         </a>
       </div>
-      <div className="flex justify-center sm:justify-between pt-6 max-w-[150px] sm:p-8 w-full">
-        <FaGithub className="cursor-pointer text-gray-600 mr-4" size={40} />
-        <FaLinkedin className="cursor-pointer text-blue-700" size={40} />
+      <div className="flex justify-center sm:justify-between pt-6 max-w-[170px] sm:p-8 w-full">
+      <a href="https://github.com/JuanSntn" target="_blank" rel="noopener noreferrer">
+  <FaGithub className="cursor-pointer text-gray-600 hover:text-gray-400 mr-4" size={50} />
+</a>
+
+<a href="https://www.linkedin.com/in/juan-carlos-leon-heredia-b197b3247/" target="_blank" rel="noopener noreferrer">
+  <FaLinkedin className="cursor-pointer text-blue-700 hover:text-blue-500" size={50} />
+</a>
+
       </div>
 
     </div>

@@ -20,7 +20,7 @@ const Skills = () => {
   return (
     <div id='skills' className="min-h-screen flex items-center justify-center  backdrop-filter-none">
       <div className="p-8 rounded-md w-full md:w-2/3 h-full md:h-2/3 flex flex-col items-center justify-center ">
-        <h2 className="text-4xl pb-12 font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white">
+        <h2 className="text-4xl pb-10 mt-4 font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white">
           &lt; Mis <span className="text-red-700">Skills /&gt;</span>
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 items-center justify-center">
