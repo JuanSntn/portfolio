@@ -26,7 +26,7 @@ const Home = () => {
             2000,
           ]}
           wrapper="span"
-          speed={50}
+          speed={70}
           style={{ fontSize: '1em', paddingLeft: '5px' }}
           repeat={Infinity}
         />

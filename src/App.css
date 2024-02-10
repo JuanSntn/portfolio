@@ -5,3 +5,25 @@
     justify-content: center;
     min-height: 100vh;
   }
+
+
+ 
+
+ /* Ajusta el contenedor del Swiper para centrarlo horizontalmente y agregar algún espacio en la parte superior e inferior */
+.swiper-container {
+  margin-top: 50px; /* Ajusta según sea necesario para el espacio en la parte superior */
+  margin-bottom: 50px; /* Ajusta según sea necesario para el espacio en la parte inferior */
+}
+
+/* Centra el Swiper horizontalmente */
+
+
+/* Ajusta el estilo de tus diapositivas según sea necesario */
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  height: 600px;
+  padding: 0px;
+}
+

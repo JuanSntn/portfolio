@@ -13,7 +13,7 @@ const Nav = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className='fixed top-0 left-0 w-full bg-black h-20vh backdrop-filter shadow-md'>
+    <div className='fixed top-0 left-0 w-full bg-black h-20vh backdrop-filter shadow-md z-50'>
       <div className='shadow-md w-full'>
         <div className='md:flex items-center justify-between py-4 md:px-10 px-7'>
           <div className='font-bold text-2xl cursor-pointer flex items-center  text-white'>
@@ -27,7 +27,7 @@ const Nav = () => {
             {open ? <FaTimes className='text-white' /> : <FaBars className='text-white' />}
           </div>
 
-          <ul className={`md:flex md:items-center backdrop-blur-sm bg-black bg-opacity-40 md:pb-0 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-15' : 'top-[-470px]'}`}>
+          <ul className={`md:flex md:items-center backdrop-blur-sm bg-black bg-opacity-40 md:pb-0 absolute md:static left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-15' : 'top-[-470px]'}`}>
             {Links.map((link) => (
               <li key={link.name} className={`md:ml-9 text-xl md:my-0 my-8 ${open ? 'hover:border-b border-red-900' : ''}`}>
                 <Link spy={true} smooth={true} to={link.to} className='cursor-pointer text-white font-semibold hover:text-red-900 duration-500'>

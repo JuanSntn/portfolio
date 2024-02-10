@@ -4,6 +4,9 @@ import PraticleBg from "./components/PraticleBg"
 import About from "./components/About"
 import Skills from "./components/Skills"
 import Projects from "./components/Projects"
+import Cv from "./components/Cv"
+import Carousel from './components/Carousel';
+
 import './App.css'
 
 function App() {
@@ -12,21 +15,19 @@ function App() {
   return (
     <>
       <div>
-       
+
         <Home />
         <About />
         <div className="w-full h-screen backdrop-blur-sm ">
-        <Skills />
+          <Skills />
         </div>
-        <div className="bg-white">
 
-        <Projects/>
+        <Projects  />
         <Nav />
-        </div>
-        
-        
+
+
         <PraticleBg />
-        
+
       </div>
 
 
