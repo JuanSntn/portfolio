@@ -16,7 +16,7 @@ const Home = () => {
             2000,
             'Coder',
             2000,
-            'Logíco',
+            'Lógico',
             2000,
             'Creativo',
             2000,

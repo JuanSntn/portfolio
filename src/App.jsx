@@ -18,14 +18,9 @@ function App() {
 
         <Home />
         <About />
-        <div className="w-full h-screen backdrop-blur-sm ">
-          <Skills />
-        </div>
-
+        <Skills />
         <Projects  />
         <Nav />
-
-
         <PraticleBg />
 
       </div>
