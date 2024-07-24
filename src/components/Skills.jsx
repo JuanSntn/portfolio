@@ -8,13 +8,12 @@ import { FaGithub } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 
-const SkillItem = ({ icon, percentage, text, color, hoverColor }) => {
-  const borderColorClass = `border-${hoverColor}`;
+const SkillItem = ({ icon, percentage, text, color }) => {
   const textColorClass = `text-${color}`;
 
   return (
     <div className='flex flex-col items-center justify-center text-center'>
-      <div className={`p-4 border-2 border-white py-6 rounded-full flex flex-col items-center justify-center text-center hover:${borderColorClass} duration-500`}>
+      <div className={`p-4 border-2 border-white py-6 rounded-full flex flex-col items-center justify-center text-center hover:border-red-900 duration-500`}>
         {icon({ className: `transition ease-in-out delay-100 ${textColorClass}`, size: 50 })}
         <h2 className={`mt-2 font-extrabold text-white `}>{percentage}</h2>
         <h2 className={` hidden mt-2 font-extrabold text-orange-600 `}></h2>
@@ -42,7 +41,7 @@ const Skills = () => {
             percentage="60%"
             text="React"
             color="blue-700"
-            hoverColor="red-700"
+
           />
 
           {/* Laravel */}
@@ -51,7 +50,7 @@ const Skills = () => {
             percentage="80%"
             text="Laravel"
             color="red-700"
-            hoverColor="red-700"
+
           />
 
           {/* JavaScript */}
@@ -60,7 +59,7 @@ const Skills = () => {
             percentage="60%"
             text="JavaScript"
             color="yellow-400"
-            hoverColor="red-700"
+
           />
 
           {/* PHP */}
@@ -69,7 +68,7 @@ const Skills = () => {
             percentage="80%"
             text="PHP"
             color="blue-700"
-            hoverColor="red-700"
+
           />
 
           {/* HTML */}
@@ -78,7 +77,7 @@ const Skills = () => {
             percentage="90%"
             text="HTML"
             color="orange-600"
-            hoverColor="red-700"
+
           />
 
           {/* Tailwind CSS */}
@@ -87,7 +86,7 @@ const Skills = () => {
             percentage="80%"
             text="Tailwind CSS"
             color="sky-600"
-            hoverColor="red-700"
+
           />
 
           {/* GitHub */}
@@ -96,7 +95,7 @@ const Skills = () => {
             percentage="70%"
             text="GitHub"
             color="gray-600"
-            hoverColor="red-700"
+
           />
 
           {/* MySQL */}
@@ -105,7 +104,7 @@ const Skills = () => {
             percentage="80%"
             text="MySQL"
             color="blue-700"
-            hoverColor="red-700"
+
           />
 
         </div>

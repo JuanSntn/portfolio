@@ -9,7 +9,6 @@ export default {
     extend: {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
-        // Agrega otras fuentes personalizadas aquí si es necesario
       },
     },
   },
